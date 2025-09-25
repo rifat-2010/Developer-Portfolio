@@ -1,0 +1,92 @@
+[
+  {
+    "title": "Login Issues - Can't Access Account",
+    "description": "Customer is unable to log in even after multiple password reset attempts.",
+    "button": "Open",
+    "code": "#1001",
+    "condition": "HIGH PRIORITY",
+    "name": "John Smith",
+    "date": "1/15/2024"
+  },
+  {
+    "title": "Payment Failure",
+    "description": "Customer reports payment is failing during checkout using credit card.",
+    "button": "In-progress",
+    "code": "#1002",
+    "condition": "HIGH PRIORITY",
+    "name": "Emily Davis",
+    "date": "2/05/2024"
+  },
+  {
+    "title": "Order Not Delivered",
+    "description": "Package marked as delivered but customer hasn’t received it.",
+    "button": "Open",
+    "code": "#1003",
+    "condition": "HIGH PRIORITY",
+    "name": "Michael Johnson",
+    "date": "2/12/2024"
+  },
+  {
+    "title": "Wrong Item Received",
+    "description": "Customer ordered a phone case but received headphones instead.",
+    "button": "In-progress",
+    "code": "#1004",
+    "condition": "MEDIUM PRIORITY",
+    "name": "Sophia Brown",
+    "date": "3/01/2024"
+  },
+  {
+    "title": "App Crashing on Launch",
+    "description": "Customer reports the mobile app crashes immediately after opening.",
+    "button": "Open",
+    "code": "#1005",
+    "condition": "HIGH PRIORITY",
+    "name": "Daniel Wilson",
+    "date": "3/20/2024"
+  },
+  {
+    "title": "Refund Not Processed",
+    "description": "Customer canceled the order but refund is still not received.",
+    "button": "In-progress",
+    "code": "#1006",
+    "condition": "MEDIUM PRIORITY",
+    "name": "Olivia Martinez",
+    "date": "4/02/2024"
+  },
+  {
+    "title": "Unable to Update Address",
+    "description": "Customer cannot update shipping address in profile settings.",
+    "button": "Open",
+    "code": "#1007",
+    "condition": "LOW PRIORITY",
+    "name": "Liam Anderson",
+    "date": "4/15/2024"
+  },
+  {
+    "title": "Discount Code Not Working",
+    "description": "Customer tried applying a valid promo code but system rejected it.",
+    "button": "In-progress",
+    "code": "#1008",
+    "condition": "LOW PRIORITY",
+    "name": "Emma Taylor",
+    "date": "5/10/2024"
+  },
+  {
+    "title": "Delayed Shipping",
+    "description": "Customer order is delayed for more than 7 days without update.",
+    "button": "Open",
+    "code": "#1009",
+    "condition": "MEDIUM PRIORITY",
+    "name": "James Thomas",
+    "date": "6/01/2024"
+  },
+  {
+    "title": "Website Not Loading",
+    "description": "Customer reports website is extremely slow and sometimes doesn’t load.",
+    "button": "In-progress",
+    "code": "#1010",
+    "condition": "HIGH PRIORITY",
+    "name": "Ava Harris",
+    "date": "6/15/2024"
+  }
+]

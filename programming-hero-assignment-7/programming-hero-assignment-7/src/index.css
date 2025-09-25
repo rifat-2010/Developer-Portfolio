@@ -1,0 +1,6 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+.google-font {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
