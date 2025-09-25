@@ -82,7 +82,7 @@ const MainSection = ({ fetchPromise }) => {
 
       {/*right side functionality  */}
       <div className="w-2/12 ">
-   
+   fjdsklfj
    <h2 className="font-bold text-[24px] text-center">Resolved Task</h2>
       
       </div>
