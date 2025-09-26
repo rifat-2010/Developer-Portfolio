@@ -1,6 +1,5 @@
-import React from "react";
+const BoxComponent = ({ bgImg, inProgressCount, ResolvedCount }) => {
 
-const BoxComponent = ({ bgImg }) => {
   return (
     <div className="mb-[80px] md:mx-20">
     <div className="relative flex flex-col md:flex-row gap-[24px]">
@@ -21,7 +20,7 @@ const BoxComponent = ({ bgImg }) => {
         {/* Content */}
         <div className="absolute inset-0 flex flex-col justify-center items-center gap-3 p-10 z-10">
           <h3 className="text-[24px] font-semibold text-white">In-Progress</h3>
-          <span className="text-[60px] text-white font-bold">0</span>
+          <span className="text-[60px] text-white font-bold">{inProgressCount}</span>
         </div>
       </div>
       {/* ---------------------------------******------------------------------------ */}
@@ -41,8 +40,8 @@ const BoxComponent = ({ bgImg }) => {
 
         {/* Content */}
         <div className="absolute inset-0 flex flex-col justify-center items-center gap-3 p-10 z-10">
-          <h3 className="text-[24px] font-semibold text-white">In-Progress</h3>
-          <span className="text-[60px] text-white font-bold">0</span>
+          <h3 className="text-[24px] font-semibold text-white">Resolved</h3>
+          <span className="text-[60px] text-white font-bold">{ResolvedCount}</span>
         </div>
       </div>
     </div>
