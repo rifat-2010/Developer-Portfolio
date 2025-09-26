@@ -11,20 +11,20 @@ const MainSection = ({ fetchPromise }) => {
 
   return (
     <div className="mb-[80px] md:mx-20">
-        <div className="flex justify-between w-full">
+        <div className="flex justify-between w-full mb-10 md:mb-0">
       <h2 className="font-bold text-[24px]">Customer Tickets</h2>
       <h2 className="font-bold text-[24px] mr-12">Task Status</h2>
       </div>
-    <div className=" w-full flex md:flex-row flex-col gap-3">
+    <div className="w-full flex md:flex-row flex-col gap-3">
         {/* left side functionality */}
         <div className="w-10/12 grid grid-cols-1 md:grid-cols-2 gap-5">
       {inisialData.map((data) => (
         
-        <div className="">
+        <div className="w-fit mx-4">
           <div
-            className=" h-[148px]
+            className="h-auto md:h-[148px]
          flex flex-col justify-center items-start 
-         gap-[10px] p-4 rounded-[4px] 
+        gap-5  md:gap-[10px] p-4 rounded-[4px] 
          shadow-lg bg-white"
           >
             <div className="flex justify-between w-full">
